@@ -210,7 +210,7 @@ body {
 
 .main-red-button a {
   display: inline-block;
-  background-color: #fe3f40;
+  background-color: #03a4ed;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -225,7 +225,8 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #fe3f40;
+  color: #03a4ed;
+  /* #fe3f40; */
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -254,11 +255,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fe3f40!important;
+  color: #03a4ed!important;
 }
 
 .background-header .nav li a.active {
-  color: #fe3f40!important;
+  color: #03a4ed!important;
 }
 
 .header-area {
@@ -376,18 +377,18 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #03a4ed!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #03a4ed!important;
   opacity: 1;
 }
 
 .header-area .main-nav .nav li:last-child a:hover ,
 .background-header .main-nav .nav li:last-child a:hover {
-  background-color: #03a4ed;
+  background-color: #fe3f40;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -588,7 +589,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fe3f40;
+  color: #03a4ed;
 }
 
 @media (max-width: 1200px) {
@@ -621,7 +622,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #fe3f40!important;
+    color: #03a4ed!important;
     opacity: 1;
   }
   .header-area.header-sticky .nav li.search-icon a {
@@ -948,7 +949,7 @@ About Us Style
 }
 
 .about-us {
-  background-image: url(../images/about-bg.png);
+  background-image: url(../images/blue-bg.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1109,7 +1110,7 @@ Portfolio
 .our-portfolio .hidden-content {
   background: rgb(255,77,30);
   background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
-  padding: 30px;
+  padding: 5px;
   border-radius: 20px;
   text-align: center;
   opacity: 0;
@@ -1289,7 +1290,7 @@ contact
 
 .contact-us {
   padding: 160px 0px;
-  background-image: url(../images/contact-bg.png);
+  background-image: url(../images/blue-bg2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
